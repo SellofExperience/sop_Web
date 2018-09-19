@@ -7,7 +7,7 @@ import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 import reducers from './reducers';
 
-const store = configureStore(reducers, {});
+const store = configureStore(reducers, { isLogin: false });
 
 ReactDOM.render(
     <Provider store={store}>

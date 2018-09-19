@@ -1,1 +1,5 @@
-import * as types from '../constants/ActionTypes';
+import * as login from './login';
+
+export default {
+    login
+};
